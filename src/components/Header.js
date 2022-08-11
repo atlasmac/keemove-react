@@ -5,10 +5,18 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import { NavHashLink } from 'react-router-hash-link'
 
 const Header = () => {
+  const [isHeaderActive, setIsHeaderActive] = React.useState(false);
+
+  function handleScroll() {
+    window.scrollY > 1 ? setIsHeaderActive(true) : setIsHeaderActive(false);
+  }
+  React.useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <div>
-      <header className='main-header'>
+      <header className={`main-header ${isHeaderActive ? 'sticky' : ''}`}>
         <nav className='main-nav'>
             <ul className='dropUl'>
               <li className='dropdown'>
