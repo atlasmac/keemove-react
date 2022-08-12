@@ -20,7 +20,7 @@ code {
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgba(0, 0, 0, .6);
 }
 
 a:hover{
@@ -39,7 +39,7 @@ li{
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
-  z-index: 100000;
+  /* z-index: 2; */
   align-items: center;
   /* border: solid red; */
 }
@@ -55,7 +55,7 @@ li{
   align-items: center;
   padding: 10px;
   list-style: none;
-  gap: 3rem;
+  
   /* border: solid blue; */
   width: 100%;
 }
@@ -65,6 +65,7 @@ li{
 .icons{
   justify-content: flex-end;
   margin-right: 2rem;
+  gap: 3rem;
 }
 
 .main-nav li>a {
@@ -209,7 +210,7 @@ li{
 
 .home-div a:hover {
   background-color: white;
-  color: black;
+  color: rgba(0, 0, 0, .75);
   text-shadow: none;
 }
 
@@ -219,8 +220,7 @@ li{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 .inner-div{
@@ -230,8 +230,13 @@ li{
   align-items: center;
 }
 
+h2,h3{
+  color: rgba(0, 0, 0, .75);
+}
+
 h2{
   font-size: 5rem;
+  
 }
 
 ul{
@@ -242,10 +247,38 @@ ul{
 li{
   font-size: 2rem;
   line-height: 3rem;
+  color: rgba(0, 0, 0, .6);
 }
 p{
   font-size: 2.5rem;
+  color: rgba(0, 0, 0, .6);
 }
+
+/* About */
+
+.about-div{
+  display: flex;
+  flex-direction: row;
+}
+.img-div{
+  width: 40%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  padding-top: 60px;
+}
+.bio-img{
+  display: block;
+  width: 300px;
+  border-radius: 50%;
+}
+.bio{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
 /* consulation component*/
 .text-link {
   font-style: italic;
@@ -253,8 +286,16 @@ p{
 }
 
 .con-div li {
-  list-style: inside;
+  list-style: circle;
 }
+.con-div ul {
+  padding-left: 20px;
+}
+
+ /* Calendly */
+ .calendly-div{
+  background-color: rgb(218, 209, 209);
+ }
 
 /* resources */
 .resource-div{
@@ -303,9 +344,12 @@ footer{
   justify-content: center;
   align-items: center;
   color: white;
-  
+}
+footer p {
+  color: inherit;
 }
 
+footer li,
 footer a{
   color: white;
 }
@@ -344,15 +388,25 @@ footer a:hover{
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 3px;
+  gap: 10px;
 }
 .copyright p{
   font-size: 1.3rem;
 }
 
+@media screen and (max-width: 1400px){
+.bio-img{
+  width: 200px;
+}
+}
 
 
-@media screen and (max-width: 870px){
+@media screen and (max-width: 1000px){
+.inner-div{
+  width: 70vw;
+}
+}
+@media screen and (max-width: 900px){
   .dropdown, 
   .hamburger{
     display: block;
@@ -364,6 +418,13 @@ footer a:hover{
 }
 
 @media screen and (max-width: 810px){
+  .about-div{
+    flex-direction: column;
+  }
+  .img-div,
+  .bio{
+    width: 100%;
+  }
   .resource-div h3 {
     font-size: 2rem;
     height: 4rem;
@@ -374,6 +435,9 @@ footer a:hover{
 }
 
 @media screen and (max-width: 650px){
+  .icons{
+    gap: 1rem;
+  }
   .resource-div{
     flex-direction: column;
     align-items: center;
@@ -390,27 +454,30 @@ footer a:hover{
     width: 100%;
     align-items: flex-start;
   }
-}
-
-@media (min-width: 370px){
-  .main-nav .links{
-    gap: 3.5rem;
+  .inner-div{
+    width: 85vw;
   }
 }
 
-@media (min-width: 1100px){
+@media (min-width: 400px){
+  .main-nav .links{
+    gap: 3rem;
+  }
+}
+
+@media (min-width: 1150px){
   .main-nav .links{
     gap: 8rem;
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1250px){
   .main-nav .links{
     gap: 12rem;
   }
 }
 
-@media (min-width: 1350px){
+@media (min-width: 1400px){
   .main-nav .links{
     gap: 15rem;
   }

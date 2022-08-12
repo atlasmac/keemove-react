@@ -17,7 +17,7 @@ const Consultation = () => {
             <li>Thinks outside the box to find tools and strategies to use at-home and in the community</li>
             <li>Empowers children and families with education and resources that benefit the whole family</li>
           </ul>
-          <p>Book a free initial consulation below, or at <a href="" className='text-link'>Calendly</a></p>
+          <p>Book a free initial consulation by clicking the button in the right hand corner, or at <a href="" className='text-link'>Calendly</a></p>
         </div>
 
       </div>

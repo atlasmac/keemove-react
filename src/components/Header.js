@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/KeeMove_Logo.png'
-import { FaYelp, FaLinkedinIn } from 'react-icons/fa'
+import { FaLinkedinIn, FaInstagram, FaFacebook } from 'react-icons/fa'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { NavHashLink } from 'react-router-hash-link'
 
@@ -18,33 +18,33 @@ const Header = () => {
     <div>
       <header className={`main-header ${isHeaderActive ? 'sticky' : ''}`}>
         <nav className='main-nav'>
-            <ul className='dropUl'>
-              <li className='dropdown'>
-                <button className='hamburger link'>
-                  <GiHamburgerMenu />
-                </button>
-                <div className='dropdownMenu'>
-                  <div className='dropdownLinks'>
-                    <NavHashLink to='/' smooth>
-                      About
-                    </NavHashLink>
-                    <NavHashLink to='/' smooth>
-                      Get Started
-                    </NavHashLink>
-                    <NavHashLink to='/' smooth>
-                      Services
-                    </NavHashLink>
-                    <NavHashLink to='/' smooth>
-                      Resources
-                    </NavHashLink>
-                  </div>
+          <ul className='dropUl'>
+            <li className='dropdown'>
+              <button className='hamburger link'>
+                <GiHamburgerMenu />
+              </button>
+              <div className='dropdownMenu'>
+                <div className='dropdownLinks'>
+                  <NavHashLink to='/#about' smooth>
+                    About
+                  </NavHashLink>
+                  <NavHashLink to='/' smooth>
+                    Get Started
+                  </NavHashLink>
+                  <NavHashLink to='/' smooth>
+                    Services
+                  </NavHashLink>
+                  <NavHashLink to='/' smooth>
+                    Resources
+                  </NavHashLink>
                 </div>
-              </li>
-            </ul>
+              </div>
+            </li>
+          </ul>
           {/* <ul></ul> */}
           <ul className='links'>
             <li className='links-li'>
-              <NavHashLink to='/' smooth>
+              <NavHashLink to='/#about' smooth>
                 About
               </NavHashLink>
             </li>
@@ -74,10 +74,13 @@ const Header = () => {
 
           <ul className='icons'>
             <li>
-              <a href="#"><FaYelp /></a>
+              <a href="#"><FaInstagram /></a>
             </li>
             <li>
-              <a href="#"><FaLinkedinIn /></a>
+              <a href="https://www.facebook.com/keemovellc"><FaFacebook /></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/kee-move-llc/"><FaLinkedinIn /></a>
             </li>
           </ul>
         </nav>
