@@ -61,6 +61,7 @@ li{
 }
 .main-nav .links{
   justify-content: center;
+  /* align-items: center; */
 }
 .icons{
   justify-content: flex-end;
@@ -88,11 +89,11 @@ li{
 .header-logo{
   height: auto;
   width: 120px;
+  margin-top: 7px;
 }
 .sticky {
   width: 100%;
   background: linear-gradient(rgb(97, 138, 200), rgba(97, 138, 200, 0.7));
-
 }
 
 /* drop down */
@@ -218,6 +219,7 @@ li{
 .div{
   background-color: rgb(218, 209, 209);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-bottom: 40px;
@@ -279,6 +281,43 @@ p{
   align-items: left;
 }
 
+/* start */
+.inner-div.start-div{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.start-div > div {
+  width: 50%;
+}
+
+.kid-craft{
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 5px;
+  display: block;
+}
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+.next-div{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.next-div > div {
+  max-width: 47%;
+}
+.inner-div.next h2{
+  margin: auto;
+}
+
+
 /* consulation component*/
 .text-link {
   font-style: italic;
@@ -287,6 +326,8 @@ p{
 
 .con-div li {
   list-style: circle;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
 }
 .con-div ul {
   padding-left: 20px;
@@ -319,7 +360,7 @@ p{
   margin: 0;
 }
 
-.resource-div h3 {
+h3 {
   font-size: 3rem;
   height: 6rem;
 }
@@ -393,6 +434,32 @@ footer a:hover{
 .copyright p{
   font-size: 1.3rem;
 }
+.button-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-div button{
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px solid white; 
+}
+
+.button-div button:hover {
+  background-color: white;
+  color: rgba(0, 0, 0, .75);
+  text-shadow: none;
+}
 
 @media screen and (max-width: 1400px){
 .bio-img{
@@ -414,12 +481,36 @@ footer a:hover{
   .links-li{
     display: none;
   }
+  .inner-div.start-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .start-div > div {
+    width: 100%;
+  }
+
+  .next-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .next-div > div {
+    max-width: 100%;
+  }
 
 }
 
 @media screen and (max-width: 810px){
   .about-div{
     flex-direction: column;
+  }
+  .img-div{
+    justify-content: center;
+  }
+  .bio-img{
+    width: 300px;
   }
   .img-div,
   .bio{

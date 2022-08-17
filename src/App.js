@@ -4,10 +4,13 @@ import Header from "./components/Header";
 import Home from './components/Home';
 import About from './components/About';
 import Consultation from './components/Consultation';
-import Calendly from './components/Calendly';
-import CalendlyMobile from './components/CalendlyMobile';
+import Start from './components/Start';
+import Regulation from './components/Regulation';
+import Structure from './components/Structure';
+import CalendlyButton from './components/CalendlyButton';
 import Resources from './components/Resources';
 import Footer from './components/Footer';
+
 
 
 function App() {
@@ -19,9 +22,11 @@ function App() {
         <Route path='/' element={
           <>
             <About />
+            <Start />
+            <Regulation />
+            <Structure />
             <Consultation />
-            {/* <Calendly /> */}
-            <CalendlyMobile />
+            <CalendlyButton />
             <Resources />
           </>
         } />

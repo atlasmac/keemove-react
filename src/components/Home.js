@@ -6,9 +6,9 @@ const Home = () => {
     <div className='home-div'>
       <div>
         <h1>Empowering Families With Creative At-Home Tools and Strategies.</h1>
-        <HashLink to='/' smooth>
+        {/* <HashLink to='/' smooth>
           Contact Us
-        </HashLink>
+        </HashLink> */}
         <HashLink to='/#book' smooth>
           Book With Us
         </HashLink>

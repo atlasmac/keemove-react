@@ -28,14 +28,20 @@ const Header = () => {
                   <NavHashLink to='/#about' smooth>
                     About
                   </NavHashLink>
-                  <NavHashLink to='/' smooth>
+                  <NavHashLink to='/#start' smooth>
                     Get Started
                   </NavHashLink>
                   <NavHashLink to='/' smooth>
-                    Services
+                    Contact
+                  </NavHashLink>
+                  <NavHashLink to='/#resources' smooth>
+                    Resources
+                  </NavHashLink>
+                  <NavHashLink to='/#book' smooth>
+                    Book
                   </NavHashLink>
                   <NavHashLink to='/' smooth>
-                    Resources
+                    Contact
                   </NavHashLink>
                 </div>
               </div>
@@ -44,12 +50,15 @@ const Header = () => {
           {/* <ul></ul> */}
           <ul className='links'>
             <li className='links-li'>
-              <NavHashLink to='/#about' smooth>
+              <NavHashLink
+                to='/#about'
+                smooth
+              >
                 About
               </NavHashLink>
             </li>
             <li className='links-li'>
-              <NavHashLink to='/' smooth>
+              <NavHashLink to='/#start' smooth>
                 Get Started
               </NavHashLink>
             </li>
@@ -61,13 +70,13 @@ const Header = () => {
               />
             </li>
             <li className='links-li'>
-              <NavHashLink to='/' smooth>
-                Services
+              <NavHashLink to='/#resources' smooth>
+                Resources
               </NavHashLink>
             </li>
             <li className='links-li'>
               <NavHashLink to='/' smooth>
-                Resources
+                Contact
               </NavHashLink>
             </li>
           </ul>
