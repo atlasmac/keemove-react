@@ -1,4 +1,5 @@
 import React from 'react'
+import CalendlyButton from './CalendlyButton'
 
 const Consultation = () => {
   return (
@@ -19,7 +20,7 @@ const Consultation = () => {
           </ul>
           <p>Book a free initial consultation below.</p>
         </div>
-
+        <CalendlyButton />
       </div>
     </div>
   )

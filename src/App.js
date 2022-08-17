@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import { FormspreeProvider } from '@formspree/react';
 import Header from "./components/Header";
 import Home from './components/Home';
 import About from './components/About';
@@ -10,6 +10,7 @@ import Structure from './components/Structure';
 import CalendlyButton from './components/CalendlyButton';
 import Resources from './components/Resources';
 import Footer from './components/Footer';
+import ContactPage from './components/ContactPage';
 
 
 
@@ -26,7 +27,9 @@ function App() {
             <Regulation />
             <Structure />
             <Consultation />
-            <CalendlyButton />
+            <FormspreeProvider project='2011689111676517690'>
+              <ContactPage />
+            </FormspreeProvider>
             <Resources />
           </>
         } />

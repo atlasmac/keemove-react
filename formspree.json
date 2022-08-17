@@ -1,0 +1,6 @@
+{ "forms": {
+  "contactForm": {
+    "name": "Contact Form",
+    "actions": [{ "type": "email", "to": "keemove@gmail.com" }]
+  }
+}}

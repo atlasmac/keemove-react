@@ -222,7 +222,7 @@ li{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .inner-div{
@@ -371,6 +371,130 @@ h3 {
 .ems{
   font-size: 2rem;
 }
+/* contact page */
+.contactPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 2rem;
+}
+
+.contactDiv h3 {
+  margin-top: 0;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.contactDiv ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contactDiv li {
+  margin-bottom: 2rem;
+}
+
+.contactDiv a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.contactDiv a:hover {
+  color: #adadad;
+}
+
+.contactDiv i {
+  font-size: 2.5rem;
+  padding-right: 15px;
+}
+
+/* formerly contactPage section */
+.contact {
+  width: 60vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+/* form */
+
+
+fieldset {
+  padding: 0;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactPage fieldset div {
+  width: 49%;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+}
+.submit-button {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+  font-size: 3rem;
+  width: 100%;
+  font-weight: bold;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px solid white; 
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: rgba(0, 0, 0, .75);
+  text-shadow: none;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.form-control {
+  font-size: 2rem;
+  display: block;
+  width: 100%;
+  height: 3rem;
+  padding: .75rem 1rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  resize: vertical;
+  border-radius: 5px;
+  font-size: 2rem;
+  font-family: inherit;
+}
+
+.returnMessage {
+  font-size: 3.5rem
+}
 
 
 /* footer */
@@ -466,9 +590,15 @@ footer a:hover{
   width: 200px;
 }
 }
-
+@media screen and (max-width: 1150px) {
+  .contact{
+    justify-content: center;
+    gap: 3rem;
+  }
+}
 
 @media screen and (max-width: 1000px){
+.contact,
 .inner-div{
   width: 70vw;
 }
@@ -525,7 +655,14 @@ footer a:hover{
   }
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 660px){
+  .form-control, .input-textarea {
+  font-size: 1.7rem;
+}
+
+.main-nav ul{
+  gap: 2rem;
+}
   .icons{
     gap: 1rem;
   }

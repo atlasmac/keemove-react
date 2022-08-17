@@ -83,7 +83,7 @@ const Header = () => {
 
           <ul className='icons'>
             <li>
-              <a href="#"><FaInstagram /></a>
+              <a href="https://www.instagram.com/kee.move/"><FaInstagram /></a>
             </li>
             <li>
               <a href="https://www.facebook.com/keemovellc"><FaFacebook /></a>

@@ -3,8 +3,10 @@ import React from 'react'
 const Structure = () => {
   return (
     <div className='div'>
-      <div className='inner-div consultation'>
+      <div className='inner-div'>
         <h2>How do I know if my child could benefit from more structure? </h2>
+      </div>
+      <div className='inner-div consultation'>
         <div className='con-div'>
           <p>Children can’t always articulate their feelings verbally, so sometimes they somaticize their feelings. If your child is experiencing: </p>
           <ul>
