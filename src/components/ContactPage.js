@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaInstagram, FaPhoneAlt } from 'react-icons/fa'
+import { FaPhoneAlt } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
 import ContactForm from './ContactForm'
 
