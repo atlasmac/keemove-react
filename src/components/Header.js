@@ -3,6 +3,7 @@ import logo from '../images/KeeMove_Logo.png'
 import { FaLinkedinIn, FaInstagram, FaFacebook } from 'react-icons/fa'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { NavHashLink } from 'react-router-hash-link'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   const [isHeaderActive, setIsHeaderActive] = React.useState(false);
@@ -28,19 +29,16 @@ const Header = () => {
                   <NavHashLink to='/#about' smooth>
                     About
                   </NavHashLink>
-                  <NavHashLink to='/#start' smooth>
+                  <Link to='/GetStarted/#start'>
                     Get Started
-                  </NavHashLink>
-                  <NavHashLink to='/' smooth>
-                    Contact
-                  </NavHashLink>
-                  <NavHashLink to='/#resources' smooth>
+                  </Link>
+                  <Link to='/Resources' smooth>
                     Resources
-                  </NavHashLink>
+                  </Link>
                   <NavHashLink to='/#book' smooth>
                     Book
                   </NavHashLink>
-                  <NavHashLink to='/' smooth>
+                  <NavHashLink to='/#contact' smooth>
                     Contact
                   </NavHashLink>
                 </div>
@@ -58,25 +56,27 @@ const Header = () => {
               </NavHashLink>
             </li>
             <li className='links-li'>
-              <NavHashLink to='/#start' smooth>
+              <NavHashLink to='/GetStarted/#start' smooth>
                 Get Started
               </NavHashLink>
             </li>
             <li>
-              <img
-                className='header-logo'
-                src={logo}
-                alt="logo"
-              />
+              <NavHashLink to='/#home' smooth>
+                <img
+                  className='header-logo'
+                  src={logo}
+                  alt="logo"
+                />
+              </NavHashLink>
             </li>
             <li className='links-li'>
-              <NavHashLink to='/#resources' smooth>
+              <NavHashLink to='/Resources/#resources' smooth>
                 Resources
               </NavHashLink>
             </li>
             <li className='links-li'>
-              <NavHashLink to='/' smooth>
-                Contact
+              <NavHashLink to='/#book' smooth>
+                Book
               </NavHashLink>
             </li>
           </ul>

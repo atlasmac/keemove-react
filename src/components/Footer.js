@@ -10,32 +10,27 @@ const Footer = () => {
             <h4>Menu</h4>
             <ul>
               <li>
-                <NavHashLink to='/' smooth>
+                <NavHashLink to='/#home' smooth>
                   Home
                 </NavHashLink>
               </li>
               <li>
-                <NavHashLink to='/' smooth>
+                <NavHashLink to='/#about' smooth>
                   About
                 </NavHashLink>
               </li>
               <li>
-                <NavHashLink to='/' smooth>
+                <NavHashLink to='/GetStarted/#start' smooth>
                   Get Started
                 </NavHashLink>
               </li>
               <li>
-                <NavHashLink to='/' smooth>
-                  Services
-                </NavHashLink>
-              </li>
-              <li>
-                <NavHashLink to='/' smooth>
+                <NavHashLink to='/#book' smooth>
                   Book
                 </NavHashLink>
               </li>
               <li>
-                <NavHashLink to='/' smooth>
+                <NavHashLink to='/Resources/#resources' smooth>
                   Resoures
                 </NavHashLink>
               </li>
@@ -51,7 +46,7 @@ const Footer = () => {
                 <a href="tel:2625013901"> <span> <AiOutlineMail />(262) 501-3901</span> </a>
               </li>
               <li>
-                <a href="mailto:keemove@gmail.com"><span> <AiOutlinePhone />keemove@gmail.com</span> </a>
+                <a href="mailto:raeleah@keemove.com"><span> <AiOutlinePhone />raeleah@keemove.com</span> </a>
               </li>
             </ul>
           </div>

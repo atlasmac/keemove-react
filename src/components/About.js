@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../images/profile.png'
+import profile from '../images/raeleahProfile.png'
 
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
           <div className='bio'>
             
             <p>I’m a Wisconsin native and Montana resident with a passion for connecting with kids and their families. I LOVE problem solving with parents on creative ways to support their child’s mental health and improve their regulation and behavior at home and in the community. </p>
-            <p>Inspired by my own experiences, I am excited to connect with more kids and families in a collaborative effort to support pediatric mental health. I have my masters in occupational therapy with experience working in pediatric home health, schools and clinic settings. </p>
+            <p>Inspired by my own experiences, I am excited to connect with more children and families in a collaborative effort to support pediatric mental health. I have my masters in occupational therapy with experience working in pediatric home health, schools and clinic settings. </p>
           </div>
         </div>
       </div>

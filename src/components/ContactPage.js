@@ -15,9 +15,9 @@ const ContactPage = () => {
           <h3>Contact Us</h3>
           <ul>
             <li>
-              <a href="mailto: Keemove@gmail.com" target='_blank' rel="noreferrer">
+              <a href="mailto:raeleah@keemove.com" target='_blank' rel="noreferrer">
                 <div className='contact-icons'>
-                  <AiOutlineMail />Keemove@gmail.com
+                  <AiOutlineMail />raeleah@keemove.com
                 </div>
               </a>
             </li>
@@ -28,14 +28,7 @@ const ContactPage = () => {
                 </div>
               </a>
             </li>
-            <li>
-              <a href="https://www.instagram.com/kee.move/" target='_blank' rel="noreferrer">
-                <div className='contact-icons'>
-                  <FaInstagram />
-                  @kee.move
-                </div>
-              </a>
-            </li>
+
           </ul>
         </div>
 
