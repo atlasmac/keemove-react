@@ -29,12 +29,12 @@ const Header = () => {
                   <NavHashLink to='/#about' smooth>
                     About
                   </NavHashLink>
-                  <Link to='/GetStarted/#start'>
+                  <NavHashLink to='/GetStarted/#start'>
                     Get Started
-                  </Link>
-                  <Link to='/Resources' smooth>
+                  </NavHashLink>
+                  <NavHashLink to='/Resources' smooth>
                     Resources
-                  </Link>
+                  </NavHashLink>
                   <NavHashLink to='/#book' smooth>
                     Book
                   </NavHashLink>

@@ -10,6 +10,7 @@ import Structure from './components/Structure';
 import Resources from './components/Resources';
 import Footer from './components/Footer';
 import ContactPage from './components/ContactPage';
+import Slideshow from './components/Slideshow';
 
 
 
@@ -24,6 +25,7 @@ function App() {
             <>
               <Home />
               <About />
+              <Slideshow />
               <Consultation />
               
             </>
