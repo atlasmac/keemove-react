@@ -3,7 +3,6 @@ import logo from '../images/KeeMove_Logo.png'
 import { FaLinkedinIn, FaInstagram, FaFacebook } from 'react-icons/fa'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { NavHashLink } from 'react-router-hash-link'
-import { Link } from 'react-router-dom'
 
 const Header = () => {
   const [isHeaderActive, setIsHeaderActive] = React.useState(false);
