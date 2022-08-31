@@ -1,3 +1,13 @@
+# keemove-react
+
+This project was for an Occupational Therapist. It features the react-calendly package so that new clients can book appointments directly on the site.
+
+# How its made/ Tech used
+
+React, React-icons, React-dom, React Router Dom, React Router Hash Link, React Calendly
+
+**Link to project:** http://www.keemove.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
