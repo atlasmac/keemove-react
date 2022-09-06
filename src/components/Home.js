@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className='home-div' id='home'>
       <div>
-        <h1>Empowering Families With Creative At-Home Tools and Strategies.</h1>
+        <h1>Empowering Families With At-Home Tools and Strategies.</h1>
         {/* <HashLink to='/' smooth>
           Contact Us
         </HashLink> */}
