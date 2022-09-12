@@ -1,3 +1,0 @@
----
-thumbnail: /uploads/sunnyyy.jpeg
----
