@@ -18,7 +18,7 @@ collections:
       - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
 collections:     
-    - name: "slideshow" # Used in routes, e.g., /admin/collections/blog
+  - name: "slideshow" # Used in routes, e.g., /admin/collections/blog
     label: "Slideshow Image" # Used in the UI
     folder: "/_posts/slideshow" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
