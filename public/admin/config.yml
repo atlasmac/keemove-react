@@ -1,0 +1,6 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+  # This line should *not* be indented
+media_folder: "public/uploads" # The folder where uploads will be committed in git
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
