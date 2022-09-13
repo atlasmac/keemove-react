@@ -1,0 +1,3 @@
+---
+thumbnail: /uploads/sunnyyy.jpeg
+---
