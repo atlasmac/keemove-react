@@ -26,6 +26,10 @@ a {
 a:hover{
   color: rgb(21, 169, 176);
 }
+/* .sx-verified-seal{
+  width: 100px;
+  height: 100px;
+} */
 
 li{
   list-style: none;

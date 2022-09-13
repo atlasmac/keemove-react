@@ -22,6 +22,10 @@ const Consultation = () => {
         </div>
         <CalendlyButton />
       </div>
+      {/* <div>
+      <a href="https://www.psychologytoday.com/profile/1026253" class="sx-verified-seal"></a>
+      <script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js" data-badge="13" data-id="1026253" data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="></script>
+      </div> */}
     </div>
   )
 }
