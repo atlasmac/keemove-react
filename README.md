@@ -4,7 +4,7 @@ This project was for an Occupational Therapist. It features the react-calendly p
 
 # How its made/ Tech used
 
-React, React-icons, React-dom, React Router Dom, React Router Hash Link, React Calendly
+React, React-icons, React-dom, React Router Dom, React Router Hash Link, React Calendly. It also uses Netlify's open source CMS to upload photos and and reviews.
 
 **Link to project:** http://www.keemove.netlify.app/
 
