@@ -647,10 +647,11 @@ footer a:hover{
 }
 /* testimonials */
 .inner-div.test-div{
-  align-items: flex-start;
+  align-items: center;
 }
 .testimonial{
   position: relative;
+  line-height: 3.5rem;
   padding: 30px;
   height: auto;
   width: 400px;
