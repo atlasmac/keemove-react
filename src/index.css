@@ -657,7 +657,6 @@ footer a:hover{
   color: #000;
   background: rgb(21, 169, 176);
   border-radius: 10px;
-  background: linear-gradient(top, rgb(61, 215, 223), rgb(21, 169, 176));
 }
 .testimonial::after{
   content: "";
