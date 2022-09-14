@@ -11,6 +11,10 @@ import Resources from './components/Resources';
 import Footer from './components/Footer';
 import ContactPage from './components/ContactPage';
 import Slideshow from './components/Slideshow';
+import Testimonial from './components/Testimonial';
+import images from "./images.json"
+import posts from "./posts.json"
+
 
 
 
@@ -25,9 +29,13 @@ function App() {
             <>
               <Home />
               <About />
-              <Slideshow />
+              <Slideshow 
+                colors={images}
+              />
               <Consultation />
-              
+              <Testimonial 
+                colors={posts}
+              />
             </>
           }
         />

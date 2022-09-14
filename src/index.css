@@ -597,13 +597,16 @@ footer a:hover{
 .slideshow-container{
   width: 100%;
   background-color: rgb(218, 209, 209);
+  padding-bottom: 80px;
 }
 
 .slideshow {
+  text-align: center;
   margin: 0 auto;
   overflow: hidden;
   max-width: 500px;
 }
+
 
 .slideshowSlider {
   white-space: nowrap;
@@ -641,6 +644,31 @@ footer a:hover{
 
 .slideshowDot.active {
   background-color: rgb(21, 169, 176);
+}
+/* testimonials */
+.inner-div.test-div{
+  align-items: flex-start;
+}
+.testimonial{
+  position: relative;
+  padding: 30px;
+  height: auto;
+  margin: 1em 0 3em;
+  color: #000;
+  background: rgb(21, 169, 176);
+  border-radius: 10px;
+  background: linear-gradient(top, rgb(61, 215, 223), rgb(21, 169, 176));
+}
+.testimonial::after{
+  content: "";
+  display: block; /* reduce the damage in FF3.0 */
+  position: absolute;
+  bottom: -15px;
+  left: 50px;
+  width: 0;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: rgb(21, 169, 176) transparent;
 }
 
 @media screen and (max-width: 1400px){

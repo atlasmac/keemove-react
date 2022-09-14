@@ -19,7 +19,7 @@ const getPosts = () => {
             acc.push(i)
           }
           return acc
-        }
+        } 
         const parseMetaData = ({lines, metadataIndices})=>{
           if (metadataIndices.length > 0){
             let metadata = lines.slice(metadataIndices[0] + 1, 

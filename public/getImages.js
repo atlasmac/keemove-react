@@ -31,22 +31,13 @@ const getPosts = () => {
             return obj
           }
         }
-        // const parseContent = ({lines, metadataIndices}) =>{
-        //   if (metadataIndices.length > 0) {
-        //     lines = lines.slice(metadataIndices[1] + 1, 
-        //       lines.length)
-        //   }
-        //   return lines.join("\n")
-        // }
         const lines = contents.split("\n")
         const metadataIndices = lines.reduce(getMetadataIndices, [])
         const metadata = parseMetaData({ lines, metadataIndices })
-        // const content = parseContent({lines, metadataIndices})
         post = {
           id: i + 1,
-          title: metadata.title ? metadata.title : "No title given",
+          thumbnail: metadata.thumbnail ? metadata.thumbnail : "No thumbnail given",
           date: metadata.date ? metadata.date : "No date given",
-          // content: content ? content : "No content given"
         }
         postList.push(post)
         if (i === files.length - 1){

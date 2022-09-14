@@ -1,8 +1,7 @@
 import React from "react";
-const colors = ["./slide1.jpeg", "./slide2.jpg"];
 const delay = 2500;
 
-export default function Slideshow() {
+export default function Slideshow({ colors }) {
   const [index, setIndex] = React.useState(0);
   const timeoutRef = React.useRef(null);
 
@@ -27,6 +26,29 @@ export default function Slideshow() {
     };
   }, [index]);
 
+  const slideShow = colors.map(el => {
+
+      return (
+        <div
+          className="slide"
+          key={el.id}
+          style={{ backgroundImage: `url(${el.thumbnail})` }}
+        ></div>
+      )
+  })
+
+  const dots = colors.map((el, i) => {
+    return (
+      <div
+        key={el.id}
+        className={`slideshowDot${index === i ? " active" : ""}`}
+        onClick={() => {
+          setIndex(i);
+        }}
+      ></div>
+    )
+  })
+
   return (
     <div className='slideshow-container'>
       <div className="slideshow">
@@ -34,25 +56,12 @@ export default function Slideshow() {
           className="slideshowSlider"
           style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
         >
-          {colors.map((background, index) => (
-            <div
-              className="slide"
-              key={index}
-              style={{ backgroundImage: `url(${background})` }}
-            ></div>
-          ))}
+          {slideShow}
         </div>
 
         <div className="slideshowDots">
-          {colors.map((_, idx) => (
-            <div
-              key={idx}
-              className={`slideshowDot${index === idx ? " active" : ""}`}
-              onClick={() => {
-                setIndex(idx);
-              }}
-            ></div>
-          ))}
+          {dots}
+
         </div>
       </div>
     </div>
