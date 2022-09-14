@@ -24,17 +24,16 @@ export default function Slideshow({ colors }) {
     return () => {
       resetTimeout();
     };
-  }, [index]);
-
+  });
+  // [index] was originally the dependency array
   const slideShow = colors.map(el => {
-
-      return (
-        <div
-          className="slide"
-          key={el.id}
-          style={{ backgroundImage: `url(${el.thumbnail})` }}
-        ></div>
-      )
+    return (
+      <div
+        className="slide"
+        key={el.id}
+        style={{ backgroundImage: `url(${el.thumbnail})` }}
+      ></div>
+    )
   })
 
   const dots = colors.map((el, i) => {
