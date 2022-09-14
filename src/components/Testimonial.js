@@ -1,4 +1,5 @@
 import React from "react";
+import {RiDoubleQuotesL,RiDoubleQuotesR} from "react-icons/ri"
 
 export default function Testimonial({ colors }) {
 
@@ -9,7 +10,9 @@ export default function Testimonial({ colors }) {
         key={el.id}
       >
         <div>
+          <div className="quoteL"><RiDoubleQuotesL className="quote"/></div>
           <p>{el.content}</p>
+          <div className="quoteR"><RiDoubleQuotesR className="quote"/></div>
         </div>
       </div>
     )
