@@ -24,7 +24,7 @@ const ContactPage = () => {
             <li>
               <a href="tel:406-209-9847" target='_blank' rel="noreferrer">
                 <div className='contact-icons'>
-                  <FaPhoneAlt />(406) 529-4442
+                  <FaPhoneAlt />(406) 209-9847
                 </div>
               </a>
             </li>
