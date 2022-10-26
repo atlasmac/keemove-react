@@ -43,7 +43,7 @@ const Footer = () => {
                 Missoula, Montana
               </li>
               <li>
-                <a href="tel:4065294442"> <span> <AiOutlineMail />(406) 529-4442</span> </a>
+                <a href="tel:406-209-9847"> <span> <AiOutlineMail />(406) 529-4442</span> </a>
               </li>
               <li>
                 <a href="mailto:raeleah@keemove.com"><span> <AiOutlinePhone />raeleah@keemove.com</span> </a>
