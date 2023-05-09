@@ -1,5 +1,0 @@
----
-title: "testimonial 3 "
-date: 2023-01-23T17:14:27.765Z
----
-I was so grateful to find Keemove. We initially met with Raeleah to talk about my then 1.5 year old son. Raeleah was incredibly helpful, kind, and thorough during the initial discovery call and always came prepared for anything to our follow up check in calls. She truly cares not only about my son but about our family as a whole and is always willing to help any one of us with things we are experiencing if she can. I appreciate that she considers the entire home / school / life environment when suggesting activities and solutions to challenges.
