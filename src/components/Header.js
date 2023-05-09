@@ -28,6 +28,9 @@ const Header = () => {
                   <NavHashLink to='/#about' smooth>
                     About
                   </NavHashLink>
+                  <a href='https://keemove.myshopify.com/' target='_blank' rel="noreferrer" >
+                    Shop
+                  </a>
                   <NavHashLink to='/GetStarted/#start'>
                     Get Started
                   </NavHashLink>
@@ -53,6 +56,11 @@ const Header = () => {
               >
                 About
               </NavHashLink>
+            </li>
+            <li className='links-li'>
+              <a href='https://keemove.myshopify.com/' target='_blank' rel="noreferrer" >
+                Shop
+              </a>
             </li>
             <li className='links-li'>
               <NavHashLink to='/GetStarted/#start' smooth>

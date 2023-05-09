@@ -20,6 +20,11 @@ const Footer = () => {
               </NavHashLink>
             </li>
             <li>
+              <a href='https://keemove.myshopify.com/' target='_blank' rel="noreferrer" >
+                Shop
+              </a>
+            </li>
+            <li>
               <NavHashLink to='/GetStarted/#start' smooth>
                 Get Started
               </NavHashLink>
