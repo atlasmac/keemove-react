@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { FormspreeProvider } from '@formspree/react';
 import Header from "./components/Header";
 import Home from './components/Home';
 import About from './components/About';
@@ -29,11 +28,11 @@ function App() {
             <>
               <Home />
               <About />
-              <Slideshow 
+              <Slideshow
                 colors={images}
               />
               <Consultation />
-              <Testimonial 
+              <Testimonial
                 colors={posts}
               />
             </>
@@ -61,9 +60,7 @@ function App() {
           <h1>Error</h1>
         } />
       </Routes>
-      <FormspreeProvider project='2011689111676517690'>
-        <ContactPage />
-      </FormspreeProvider>
+      <ContactPage />
       <Footer />
     </Router>
   );
