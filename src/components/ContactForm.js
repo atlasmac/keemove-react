@@ -5,7 +5,7 @@ const ContactForm = () => {
 
   return (
     <div>
-      <form name="contact" action='/success' method="POST" data-netlify="true">
+      <form name="contact" method="post">
         <input
           type='hidden'
           name='form-name'
