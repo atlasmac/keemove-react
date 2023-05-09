@@ -5,7 +5,11 @@ const ContactForm = () => {
 
   return (
     <div>
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" action='/success' method="POST" data-netlify="true">
+        <input
+          type='hidden'
+          name='form-name'
+          value='contact' />
         <div className="form-group">
           <fieldset >
             <div>
@@ -50,6 +54,8 @@ const ContactForm = () => {
             placeholder="Message"
             className="input-textarea form-control"  ></textarea>
         </div>
+
+
 
         <div className='buttonDiv'>
           <button
