@@ -29,11 +29,11 @@ function App() {
             <>
               <Home />
               <About />
-              <Slideshow 
+              <Slideshow
                 colors={images}
               />
               <Consultation />
-              <Testimonial 
+              <Testimonial
                 colors={posts}
               />
             </>
