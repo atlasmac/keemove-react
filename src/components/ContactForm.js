@@ -6,7 +6,6 @@ const ContactForm = () => {
   return (
     <div>
       <form name="contact" method="POST" data-netlify="true">
-
         <div className="form-group">
           <fieldset >
             <div>
