@@ -30,6 +30,11 @@ const Footer = () => {
               </NavHashLink>
             </li>
             <li>
+              <a href='https://keemove.myshopify.com/' target='_blank' rel="noreferrer">
+                Shop
+              </a>
+            </li>
+            <li>
               <NavHashLink to='/Resources/#resources' smooth>
                 Resoures
               </NavHashLink>
