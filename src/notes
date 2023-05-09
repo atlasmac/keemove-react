@@ -1,0 +1,15 @@
+8e72cd3 (HEAD -> master, origin/master) Merge pull request #4 from atlasmac/old-commit-4
+a7da9bc (origin/old-commit-4, old-commit-4) Revert "Revert "add shop""
+7954db9 (old-commit-2) Revert "add shop"
+9b65265 Merge pull request #3 from atlasmac/old
+1f5fab8 (origin/old, old) add
+dde5de2 Merge branch 'master' of https://github.com/atlasmac/keemove-react
+5b8d227 reset changes
+bb8805e remove formspree
+0811bee add action
+a2691ad add netlify attribute
+8537723 test form
+65e3782 try form
+0899190 add netlify contact form
+01831e4 add shop
+da26b46 (origin/old-commit, old-commit-3) switch to png
