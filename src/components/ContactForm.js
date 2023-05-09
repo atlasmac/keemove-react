@@ -1,22 +1,14 @@
 import React from 'react'
-import { useForm, ValidationError } from '@formspree/react';
-import ContactMessage from './ContactMessage';
+// import ContactMessage from './ContactMessage';
 
 const ContactForm = () => {
-  const [state, handleSubmit] = useForm("contactForm");
-  if (state.succeeded) {
-    return (
-      <div>
-        <ContactMessage />
-      </div>
-    )
-  }
+
   return (
     <div>
-      <form id="survey-form" onSubmit={handleSubmit}>
+      <form name="contact" method="POST" data-netlify="true">
 
         <div className="form-group">
-          <fieldset id="name">
+          <fieldset >
             <div>
               <input
                 id="firstName"
@@ -50,28 +42,19 @@ const ContactForm = () => {
             className="form-control"
             required
           />
-          <ValidationError
-            prefix="Email"
-            field="email"
-            errors={state.errors}
-          />
+
         </div>
         <div className="form-group">
           <textarea
             id="message"
-            name="comment"
+            name="message"
             placeholder="Message"
             className="input-textarea form-control"  ></textarea>
         </div>
-        <ValidationError
-          prefix="Message"
-          field="message"
-          errors={state.errors}
-        />
+
         <div className='buttonDiv'>
           <button
             type="submit"
-            disabled={state.submitting}
             className="submit-button"
           >
             Send
