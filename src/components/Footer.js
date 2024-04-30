@@ -1,8 +1,11 @@
 import React from 'react'
 import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai'
+import { FaFax } from 'react-icons/fa'
 import { NavHashLink } from 'react-router-hash-link'
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer>
       <div className='footer-container'>
@@ -48,16 +51,25 @@ const Footer = () => {
               Missoula, Montana
             </li>
             <li>
-              <a href="tel:406-209-9847"> <span> <AiOutlineMail />(406) 209-9847</span> </a>
+              <a href="mailto:raeleah@keemove.com"><span> <AiOutlineMail />raeleah@keemove.com</span> </a>
             </li>
             <li>
-              <a href="mailto:raeleah@keemove.com"><span> <AiOutlinePhone />raeleah@keemove.com</span> </a>
+              <a href="tel:406-209-9847"> <span> <AiOutlinePhone />Phone: (406) 209-9847</span> </a>
+            </li>
+
+            <li>
+              <a href="tel:406-209-9847"><span> <FaFax />Fax: (406) 519-0626</span> </a>
             </li>
           </ul>
         </div>
       </div>
+      <div className='disclaimer'>
+        <p>
+          <span>Disclaimer: Nothing on this website is medical advice and no patient-provider relationship is established by purchasing or viewing resources, or by booking or participating in a consultation appointment. If you have a specific problem and are needing medical advice, please contact your doctor to request a referral to establish care with Kee Move, LLC</span>
+        </p>
+      </div>
       <div className='copyright'>
-        <p>KeeMove © 2022 - 2023</p>
+        <p>KeeMove © 2022 - {currentYear}</p>
       </div>
     </footer>
   )

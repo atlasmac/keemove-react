@@ -509,6 +509,7 @@ footer {
 }
 footer p {
   color: inherit;
+  margin-top: 0;
 }
 
 footer li,
@@ -517,6 +518,18 @@ footer a {
 }
 footer a:hover {
   color: rgb(21, 169, 176);
+}
+
+.disclaimer p {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+.disclaimer {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
 }
 
 .footer-container {
