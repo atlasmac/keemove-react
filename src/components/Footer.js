@@ -42,6 +42,11 @@ const Footer = () => {
                 Book
               </NavHashLink>
             </li>
+            <li>
+              <NavHashLink to='/privacy/#privacy' smooth>
+                Privacy Policy
+              </NavHashLink>
+            </li>
           </ul>
         </div>
         <div className='footer-div'>

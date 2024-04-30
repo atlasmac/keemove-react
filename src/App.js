@@ -13,6 +13,7 @@ import Slideshow from './components/Slideshow';
 import Testimonial from './components/Testimonial';
 import images from "./images.json"
 import posts from "./posts.json"
+import Privacy from './components/Privacy';
 
 
 
@@ -53,6 +54,14 @@ function App() {
           element={
             <>
               <Resources />
+            </>
+          }
+        />
+        <Route
+          path='/Privacy'
+          element={
+            <>
+              <Privacy />
             </>
           }
         />
