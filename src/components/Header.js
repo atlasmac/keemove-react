@@ -58,7 +58,7 @@ const Header = () => {
               </NavHashLink>
             </li>
             <li className='links-li'>
-              <a href='https://keemove.myshopify.com/' target='_blank' rel="noreferrer">
+              <a href='https://www.etsy.com/shop/keemove/?etsrc=sdt&load_webview=1&bid=MhC-rUO26tZLyG6_j47kFP2o27el' target='_blank' rel="noreferrer">
                 Shop
               </a>
             </li>
