@@ -1,25 +1,54 @@
-import React from 'react'
-import profile from '../images/raeleahProfile.png'
+import React from "react";
+import profile from "../images/raeleahProfile.png";
 
 const About = () => {
   return (
-    <div className='div' id='about'>
-      <div className='inner-div'>
-        <h2>Hi, I’m Raeleah!</h2>
-        <div className='about-div'>
-
-          <div className='img-div'>
-            <img className='bio-img' src={profile} alt="profile" />
+    <div className="div" id="about">
+      <div className="inner-div">
+        <h2>Raeleah Schaeffer, MOT, OTR/L</h2>
+        <div className="about-div">
+          <div>
+            <div className="img-div">
+              <img className="bio-img" src={profile} alt="profile" />
+            </div>
+            <div className="bio">
+              <h3>Education</h3>
+              <ul>
+                <li><b>Bachelor of Science in Rehabilitation Psychology</b>, University of Wisconsin, Madison</li>
+                <li><b>Master of Occupational Therapy</b>, Carroll University</li>
+              </ul>
+              <a href="https://bcert.me/sdoclukqp">NBCOT Badge</a>
+            </div>
           </div>
-          <div className='bio'>
-
-            <p>I’m a Wisconsin native and Montana resident with a passion for connecting with kids and their families. I LOVE problem solving with parents on creative ways to support their child’s mental health and improve their regulation and behavior at home and in the community. </p>
-            <p>Inspired by my own experiences, I am excited to connect with more children and families in a collaborative effort to support pediatric mental health. I have my masters in occupational therapy with experience working in pediatric home health, schools and clinic settings. </p>
+          <div className="bio">
+            <h3>About</h3>
+            <p>
+              As a nationally board certified and MT licensed occupational
+              therapist, I specialize in helping clients manage ADHD, anxiety,
+              sensory sensitivities and motor delays. I primarily work with kids
+              but also work with adults with some or all of the above concerns.{" "}
+            </p>
+            <p>
+              My approach emphasizes collaborating with clients and parents to
+              develop creative strategies that enhance their physical and mental
+              well-being in various environments. I enjoy finding ways to
+              incorporate clients' interests into therapy to make it more
+              engaging and personalized.{" "}
+            </p>
+            <p>
+              Outside of OT, I enjoy running, skiing, golf and other outdoor
+              activities. I believe in the importance of self-confidence and aim
+              to help clients develop the skills they need to succeed and feel
+              more confident in themselves.
+            </p>
+            <p>
+              Contact me today to learn more about how I can support you or your child's development and well-being.
+            </p>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
