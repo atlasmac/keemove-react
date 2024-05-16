@@ -34,7 +34,7 @@ const Footer = () => {
             </li>
             <li>
               <NavHashLink to='/Resources/#resources' smooth>
-                Resoures
+                Resources
               </NavHashLink>
             </li>
             <li>

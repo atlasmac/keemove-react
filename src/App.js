@@ -1,22 +1,19 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Home from './components/Home';
-import About from './components/About';
-import Consultation from './components/Consultation';
-import Start from './components/Start';
-import Regulation from './components/Regulation';
-import Structure from './components/Structure';
-import Resources from './components/Resources';
-import Footer from './components/Footer';
-import ContactPage from './components/ContactPage';
-import Slideshow from './components/Slideshow';
-import Testimonial from './components/Testimonial';
-import images from "./images.json"
-import posts from "./posts.json"
-import Privacy from './components/Privacy';
-
-
-
+import Home from "./components/Home";
+import About from "./components/About";
+import Consultation from "./components/Consultation";
+import Start from "./components/Start";
+import Regulation from "./components/Regulation";
+import Structure from "./components/Structure";
+import Resources from "./components/Resources";
+import Footer from "./components/Footer";
+import ContactPage from "./components/ContactPage";
+import Slideshow from "./components/Slideshow";
+import Testimonial from "./components/Testimonial";
+import images from "./images.json";
+import posts from "./posts.json";
+import Privacy from "./components/Privacy";
 
 function App() {
   return (
@@ -24,23 +21,19 @@ function App() {
       <Header />
       <Routes>
         <Route
-          path='/'
+          path="/"
           element={
             <>
               <Home />
               <About />
-              <Slideshow
-                colors={images}
-              />
+              <Slideshow colors={images} />
+              <Testimonial colors={posts} />
               <Consultation />
-              <Testimonial
-                colors={posts}
-              />
             </>
           }
         />
         <Route
-          path='/GetStarted'
+          path="/GetStarted"
           element={
             <>
               <Start />
@@ -50,7 +43,7 @@ function App() {
           }
         />
         <Route
-          path='/Resources'
+          path="/Resources"
           element={
             <>
               <Resources />
@@ -58,16 +51,14 @@ function App() {
           }
         />
         <Route
-          path='/Privacy'
+          path="/Privacy"
           element={
             <>
               <Privacy />
             </>
           }
         />
-        <Route path='*' element={
-          <h1>Error</h1>
-        } />
+        <Route path="*" element={<h1>Error</h1>} />
       </Routes>
       <ContactPage />
       <Footer />
