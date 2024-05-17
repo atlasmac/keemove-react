@@ -374,7 +374,7 @@ p {
 }
 
 .consultation {
-  padding-top: 90px;
+  padding-top: 100px;
 }
 
 .con-div li {
@@ -394,7 +394,7 @@ p {
 /* resources */
 .start,
 .resources {
-  padding-top: 90px;
+  padding-top: 100px;
 }
 .resource-div {
   display: flex;

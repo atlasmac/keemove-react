@@ -74,11 +74,6 @@ const Header = () => {
                 Who We Help
               </NavHashLink>
             </li>
-            {/* <li>
-              <NavHashLink to="/#home" smooth>
-                <img className="header-logo" src={logo} alt="logo" />
-              </NavHashLink>
-            </li> */}
             <li className="links-li">
               <NavHashLink to="/PatientTools" smooth>
                 Patient Tools
