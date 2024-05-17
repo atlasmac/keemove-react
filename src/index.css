@@ -101,6 +101,29 @@ li {
   background: linear-gradient(rgb(97, 138, 200), rgba(97, 138, 200, 0.7));
 }
 
+/* new drop */
+.drop {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  text-align: start;
+  gap: 1rem;
+  padding: 1rem;
+}
+
 /* drop down */
 
 .dropUl {

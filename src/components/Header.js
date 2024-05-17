@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../images/KeeMove_Logo.png";
 import {
   FaLinkedinIn,
@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavHashLink } from "react-router-hash-link";
+import DropdownMenu from "./DropDownMenu";
 
 const Header = () => {
   const [isHeaderActive, setIsHeaderActive] = React.useState(false);
@@ -19,6 +20,21 @@ const Header = () => {
     window.addEventListener("scroll", handleScroll);
   }, []);
 
+  const [isDropdownVisible, setDropdownVisible] = useState(false);
+  const [isDropdownVisible2, setDropdownVisible2] = useState(false);
+  const handleMouseEnter = () => {
+    setDropdownVisible(true);
+  };
+  const handleMouseEnter2 = () => {
+    setDropdownVisible2(true);
+  };
+  const handleMouseLeave2 = () => {
+    setDropdownVisible2(false);
+  };
+
+  const handleMouseLeave = () => {
+    setDropdownVisible(false);
+  };
   return (
     <div>
       <header className={`main-header ${isHeaderActive ? "sticky" : ""}`}>
@@ -64,15 +80,48 @@ const Header = () => {
                 About
               </NavHashLink>
             </li>
-            <li className="links-li">
-              <NavHashLink to="/WhatWeDo" smooth>
+            <li className="links-li drop">
+              <NavHashLink
+                to="/WhatWeDo"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                smooth
+              >
                 What We Do
               </NavHashLink>
+              {isDropdownVisible && (
+                <DropdownMenu
+                  items={[
+                    "OT Evaluation and Treatment",
+                    "Consultations, Speaking Engagements",
+                    "Business Coaching",
+                  ]}
+                />
+              )}
             </li>
-            <li className="links-li">
-              <NavHashLink to="/help" smooth>
+            <li className="links-li drop">
+              <NavHashLink
+                to="/help"
+                onMouseEnter={handleMouseEnter2}
+                onMouseLeave={handleMouseLeave2}
+                smooth
+              >
                 Who We Help
               </NavHashLink>
+              {isDropdownVisible2 && (
+                <DropdownMenu
+                  items={[
+                    "Sensory Processing",
+                    "Fine Motor Skills",
+                    "Gross Motor Skills",
+                    "Visual Motor Skills",
+                    "Executive Functioning",
+                    "Emotional Regulation",
+                    "Self-Care Skills",
+                    "Cognitive Skills",
+                  ]}
+                />
+              )}
             </li>
             <li className="links-li">
               <NavHashLink to="/PatientTools" smooth>
