@@ -1,6 +1,11 @@
 import React from "react";
 import logo from "../images/KeeMove_Logo.png";
-import { FaLinkedinIn, FaInstagram, FaFacebook } from "react-icons/fa";
+import {
+  FaLinkedinIn,
+  FaInstagram,
+  FaFacebook,
+  FaShoppingBasket,
+} from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavHashLink } from "react-router-hash-link";
 
@@ -17,6 +22,11 @@ const Header = () => {
   return (
     <div>
       <header className={`main-header ${isHeaderActive ? "sticky" : ""}`}>
+        <nav>
+          <NavHashLink to="/#home" smooth>
+            <img className="header-logo-main" src={logo} alt="logo" />
+          </NavHashLink>
+        </nav>
         <nav className="main-nav">
           <ul className="dropUl">
             <li className="dropdown">
@@ -28,13 +38,15 @@ const Header = () => {
                   <NavHashLink to="/#about" smooth>
                     About
                   </NavHashLink>
-                  <a
-                    href="https://www.etsy.com/shop/keemove"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Shop
-                  </a>
+                  <NavHashLink to="/help" smooth>
+                    Who We Help
+                  </NavHashLink>
+                  <NavHashLink to="/WhatWeDo" smooth>
+                    What We Do
+                  </NavHashLink>
+                  <NavHashLink to="/PatientTools" smooth>
+                    Patient Tools
+                  </NavHashLink>
                   <NavHashLink to="/Resources" smooth>
                     Resources
                   </NavHashLink>
@@ -45,7 +57,7 @@ const Header = () => {
               </div>
             </li>
           </ul>
-          {/* <ul></ul> */}
+
           <ul className="links">
             <li className="links-li">
               <NavHashLink to="/#about" smooth>
@@ -53,17 +65,23 @@ const Header = () => {
               </NavHashLink>
             </li>
             <li className="links-li">
-              <a
-                href="https://www.etsy.com/shop/keemove"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Shop
-              </a>
+              <NavHashLink to="/WhatWeDo" smooth>
+                What We Do
+              </NavHashLink>
             </li>
-            <li>
+            <li className="links-li">
+              <NavHashLink to="/help" smooth>
+                Who We Help
+              </NavHashLink>
+            </li>
+            {/* <li>
               <NavHashLink to="/#home" smooth>
                 <img className="header-logo" src={logo} alt="logo" />
+              </NavHashLink>
+            </li> */}
+            <li className="links-li">
+              <NavHashLink to="/PatientTools" smooth>
+                Patient Tools
               </NavHashLink>
             </li>
             <li className="links-li">
@@ -79,6 +97,11 @@ const Header = () => {
           </ul>
 
           <ul className="icons">
+            <li>
+              <a href="https://www.etsy.com/shop/keeMove">
+                <FaShoppingBasket />
+              </a>
+            </li>
             <li>
               <a href="https://www.instagram.com/themindbodyot/">
                 <FaInstagram />

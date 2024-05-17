@@ -35,8 +35,9 @@ li {
 .main-header {
   background-color: rgba(97, 138, 200, 0.7);
   position: fixed;
+  padding-top: 15px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   justify-content: space-between;
   z-index: 2;
@@ -89,6 +90,12 @@ li {
   width: 120px;
   margin-top: 7px;
 }
+
+.header-logo-main {
+  height: auto;
+  width: 160px;
+  margin-top: 7px;
+}
 .sticky {
   width: 100%;
   background: linear-gradient(rgb(97, 138, 200), rgba(97, 138, 200, 0.7));
@@ -123,6 +130,21 @@ li {
   list-style: none;
 }
 
+.btn {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+  font-size: 3rem;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 15px 32px;
+  border: 2px solid white;
+}
+.btn:hover {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.75);
+  text-shadow: none;
+}
 /* dropdown content */
 .dropdownLinks {
   display: none;
@@ -351,6 +373,10 @@ p {
   font-weight: bold;
 }
 
+.consultation {
+  padding-top: 90px;
+}
+
 .con-div li {
   list-style: circle;
   font-size: 2.5rem;
@@ -368,7 +394,7 @@ p {
 /* resources */
 .start,
 .resources {
-  padding-top: 60px;
+  padding-top: 90px;
 }
 .resource-div {
   display: flex;
@@ -632,7 +658,7 @@ footer a:hover {
 .slideshow-container {
   width: 100%;
   background-color: rgb(218, 209, 209);
-  padding-bottom: 80px;
+  padding: 30px 0;
 }
 
 .slideshow {
@@ -742,7 +768,7 @@ footer a:hover {
     width: 70vw;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
   .testimonial {
     width: 400px;
   }
@@ -850,18 +876,18 @@ footer a:hover {
 
 @media (min-width: 1150px) {
   .main-nav .links {
-    gap: 8rem;
+    gap: 3rem;
   }
 }
 
 @media (min-width: 1250px) {
   .main-nav .links {
-    gap: 12rem;
+    gap: 6rem;
   }
 }
 
 @media (min-width: 1400px) {
   .main-nav .links {
-    gap: 15rem;
+    gap: 9rem;
   }
 }
