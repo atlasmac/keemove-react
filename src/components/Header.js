@@ -1,8 +1,13 @@
-import React from 'react'
-import logo from '../images/KeeMove_Logo.png'
-import { FaLinkedinIn, FaInstagram, FaFacebook } from 'react-icons/fa'
-import { GiHamburgerMenu } from 'react-icons/gi'
-import { NavHashLink } from 'react-router-hash-link'
+import React from "react";
+import logo from "../images/KeeMove_Logo.png";
+import {
+  FaLinkedinIn,
+  FaInstagram,
+  FaFacebook,
+  FaShoppingBasket,
+} from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { NavHashLink } from "react-router-hash-link";
 
 const Header = () => {
   const [isHeaderActive, setIsHeaderActive] = React.useState(false);
@@ -16,95 +21,107 @@ const Header = () => {
 
   return (
     <div>
-      <header className={`main-header ${isHeaderActive ? 'sticky' : ''}`}>
-        <nav className='main-nav'>
-          <ul className='dropUl'>
-            <li className='dropdown'>
-              <button className='hamburger link'>
+      <header className={`main-header ${isHeaderActive ? "sticky" : ""}`}>
+        <nav>
+          <NavHashLink to="/#home" smooth>
+            <img className="header-logo-main" src={logo} alt="logo" />
+          </NavHashLink>
+        </nav>
+        <nav className="main-nav">
+          <ul className="dropUl">
+            <li className="dropdown">
+              <button className="hamburger link">
                 <GiHamburgerMenu />
               </button>
-              <div className='dropdownMenu'>
-                <div className='dropdownLinks'>
-                  <NavHashLink to='/#about' smooth>
+              <div className="dropdownMenu">
+                <div className="dropdownLinks">
+                  <NavHashLink to="/#about" smooth>
                     About
                   </NavHashLink>
-                  <a href='https://keemove.myshopify.com/' target='_blank' rel="noreferrer">
-                    Shop
-                  </a>
-                  <NavHashLink to='/GetStarted/#start'>
-                    Get Started
+                  <NavHashLink to="/help" smooth>
+                    Who We Help
                   </NavHashLink>
-                  <NavHashLink to='/Resources' smooth>
+                  <NavHashLink to="/WhatWeDo" smooth>
+                    What We Do
+                  </NavHashLink>
+                  <NavHashLink to="/PatientTools" smooth>
+                    Patient Tools
+                  </NavHashLink>
+                  <NavHashLink to="/Resources" smooth>
                     Resources
                   </NavHashLink>
-                  <NavHashLink to='/#book' smooth>
-                    Book
-                  </NavHashLink>
-                  <NavHashLink to='/#contact' smooth>
+                  <NavHashLink to="/#book" smooth>
                     Contact
                   </NavHashLink>
                 </div>
               </div>
             </li>
           </ul>
-          {/* <ul></ul> */}
-          <ul className='links'>
-            <li className='links-li'>
-              <NavHashLink
-                to='/#about'
-                smooth
-              >
+
+          <ul className="links">
+            <li className="links-li">
+              <NavHashLink to="/#about" smooth>
                 About
               </NavHashLink>
             </li>
-            <li className='links-li'>
-              <a href='https://www.etsy.com/shop/keemove/?etsrc=sdt&load_webview=1&bid=MhC-rUO26tZLyG6_j47kFP2o27el' target='_blank' rel="noreferrer">
-                Shop
-              </a>
-            </li>
-            <li className='links-li'>
-              <NavHashLink to='/GetStarted/#start' smooth>
-                Get Started
+            <li className="links-li">
+              <NavHashLink to="/WhatWeDo" smooth>
+                What We Do
               </NavHashLink>
             </li>
-            <li>
-              <NavHashLink to='/#home' smooth>
-                <img
-                  className='header-logo'
-                  src={logo}
-                  alt="logo"
-                />
+            <li className="links-li">
+              <NavHashLink to="/help" smooth>
+                Who We Help
               </NavHashLink>
             </li>
-            <li className='links-li'>
-              <NavHashLink to='/Resources/#resources' smooth>
+            {/* <li>
+              <NavHashLink to="/#home" smooth>
+                <img className="header-logo" src={logo} alt="logo" />
+              </NavHashLink>
+            </li> */}
+            <li className="links-li">
+              <NavHashLink to="/PatientTools" smooth>
+                Patient Tools
+              </NavHashLink>
+            </li>
+            <li className="links-li">
+              <NavHashLink to="/Resources/#resources" smooth>
                 Resources
               </NavHashLink>
             </li>
-            <li className='links-li'>
-              <NavHashLink to='/#book' smooth>
-                Book
+            <li className="links-li">
+              <NavHashLink to="/#book" smooth>
+                Contact
               </NavHashLink>
             </li>
           </ul>
 
-          <ul className='icons'>
+          <ul className="icons">
             <li>
-              <a href="https://www.instagram.com/kee.move/"><FaInstagram /></a>
+              <a href="https://www.etsy.com/shop/keeMove">
+                <FaShoppingBasket />
+              </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/keemovellc"><FaFacebook /></a>
+              <a href="https://www.instagram.com/themindbodyot/">
+                <FaInstagram />
+              </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/company/kee-move-llc/"><FaLinkedinIn /></a>
+              <a href="https://www.facebook.com/keemovellc">
+                <FaFacebook />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/kee-move-llc/">
+                <FaLinkedinIn />
+              </a>
             </li>
           </ul>
         </nav>
       </header>
     </div>
-  )
-}
+  );
+};
 
-export default Header
-
-
+export default Header;
