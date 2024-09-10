@@ -14,8 +14,13 @@ const About = () => {
             <div className="bio">
               <h3>Education</h3>
               <ul>
-                <li><b>Bachelor of Science in Rehabilitation Psychology</b>, University of Wisconsin, Madison</li>
-                <li><b>Master of Occupational Therapy</b>, Carroll University</li>
+                <li>
+                  <b>Bachelor of Science in Rehabilitation Psychology</b>,
+                  University of Wisconsin, Madison
+                </li>
+                <li>
+                  <b>Master of Occupational Therapy</b>, Carroll University
+                </li>
               </ul>
               <a href="https://bcert.me/sdoclukqp">NBCOT Badge</a>
             </div>
@@ -25,8 +30,9 @@ const About = () => {
             <p>
               As a nationally board certified and MT licensed occupational
               therapist, I specialize in helping clients manage ADHD, anxiety,
-              sensory sensitivities and motor delays. I primarily work with kids
-              but also work with adults with some or all of the above concerns.{" "}
+              sensory sensitivities and motor delays. I work with kids and
+              adults with some or all of the above concerns so that you can feel
+              more organized, calm and in control of your daily life.{" "}
             </p>
             <p>
               My approach emphasizes collaborating with clients and parents to
@@ -42,7 +48,8 @@ const About = () => {
               more confident in themselves.
             </p>
             <p>
-              Contact me today to learn more about how I can support you or your child's development and well-being.
+              See if occupational therapy is the right fit for you or your
+              child!
             </p>
           </div>
         </div>

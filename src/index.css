@@ -33,7 +33,7 @@ li {
 
 /* header styling */
 .main-header {
-  background-color: rgba(97, 138, 200, 0.7);
+  background-color: rgba(97, 138, 200, 0.9);
   position: fixed;
   padding-top: 15px;
   display: flex;
@@ -67,7 +67,7 @@ li {
 .icons {
   justify-content: flex-end;
   margin-right: 2rem;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .main-nav li > a {
@@ -98,7 +98,7 @@ li {
 }
 .sticky {
   width: 100%;
-  background: linear-gradient(rgb(97, 138, 200), rgba(97, 138, 200, 0.7));
+  background: linear-gradient(rgb(97, 138, 200), rgba(97, 138, 200, 0.9));
 }
 
 /* new drop */
@@ -206,7 +206,7 @@ li {
 /* home page */
 
 .home-div {
-  background-image: url("./images/bubbles.jpg");
+  background-image: url("./images/flowers.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
