@@ -66,6 +66,13 @@ const Header = () => {
                   <NavHashLink to="/Resources" smooth>
                     Resources
                   </NavHashLink>
+                  <a
+                    href="https://docs.google.com/forms/d/1yP2NDmQKfpHNo8y8tSvnl8ZmpsAqMLEV5RBGufAy2gQ/edit"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Volunteer
+                  </a>
                   <NavHashLink to="/#book" smooth>
                     Contact
                   </NavHashLink>
@@ -132,6 +139,15 @@ const Header = () => {
               <NavHashLink to="/Resources/#resources" smooth>
                 Resources
               </NavHashLink>
+            </li>
+            <li className="links-li">
+              <a
+                href="https://docs.google.com/forms/d/1yP2NDmQKfpHNo8y8tSvnl8ZmpsAqMLEV5RBGufAy2gQ/edit"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Volunteer
+              </a>
             </li>
             <li className="links-li">
               <NavHashLink to="/#book" smooth>
