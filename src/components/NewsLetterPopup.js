@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export default function NewsletterPopup() {
   const [visible, setVisible] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
     // Show the popup after a short delay
@@ -21,17 +22,32 @@ export default function NewsletterPopup() {
 
       <a
         href="https://mailchi.mp/keemove/monthly-newsletter-sign-up"
-        style={styles.link}
+        style={
+          isHovered ? { ...styles.link, ...styles.linkHover } : styles.link
+        }
         target="_blank"
         rel="noopener noreferrer"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
       >
         Signup! →
       </a>
     </div>
   );
 }
-
+// add hover for link color: rgb(21, 169, 176);
 const styles = {
+  link: {
+    display: "inline-block",
+    marginTop: "6px",
+    textDecoration: "underline",
+    fontSize: "14px",
+    color: "rgba(0, 0, 0, 0.6)",
+    transition: "color 0.2s ease",
+  },
+  linkHover: {
+    color: "rgb(21, 169, 176)",
+  },
   popup: {
     position: "fixed",
     bottom: "20px",
@@ -44,13 +60,7 @@ const styles = {
     zIndex: 9999,
     maxWidth: "220px",
   },
-  link: {
-    display: "inline-block",
-    marginTop: "6px",
-    color: "#0066cc",
-    textDecoration: "underline",
-    fontSize: "14px",
-  },
+
   closeBtn: {
     position: "absolute",
     top: "4px",
