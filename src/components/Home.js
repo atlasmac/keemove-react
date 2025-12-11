@@ -5,7 +5,10 @@ const Home = () => {
   return (
     <div className="home-div" id="home">
       <div>
-        <h1>Turning struggles into strengths</h1>
+        <h1>
+          We help kids and adults manage ADHD, anxiety, and sensory needs so
+          everyday tasks feel easier and life feels more fun.
+        </h1>
         <HashLink to="/#book" smooth>
           Book With Us
         </HashLink>

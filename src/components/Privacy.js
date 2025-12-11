@@ -24,7 +24,7 @@ const Privacy = () => {
 
         <p>
           For any privacy-related questions, you can reach us at{" "}
-          <a href="mailto:raeleah@keemove.com">raeleah@keemove.com</a>.
+          <a href="mailto:office@keemove.com">office@keemove.com</a>.
         </p>
 
         <h2>GENERAL</h2>
@@ -499,7 +499,7 @@ const Privacy = () => {
           checking the appropriate box when You register for an account or make
           a purchase. You may change Your communication settings by contacting
           us at
-          <a href="mailto:raeleah@keemove.com">raeleah@keemove.com</a>
+          <a href="mailto:office@keemove.com">office@keemove.com</a>
         </p>
 
         <p>
@@ -507,7 +507,7 @@ const Privacy = () => {
           You may opt out of receiving any third party marketing communications
           or having Your personal information used for marketing purposes. You
           may do this by contacting us at
-          <a href="mailto:raeleah@keemove.com">raeleah@keemove.com</a>
+          <a href="mailto:office@keemove.com">office@keemove.com</a>
         </p>
 
         <p>
@@ -551,15 +551,13 @@ const Privacy = () => {
           that is publicly posted on Our website, We may not be able to
           completely remove that data from Our systems.
         </p>
-        <h2>
-          NEVADA PRIVACY RIGHTS
-        </h2>
+        <h2>NEVADA PRIVACY RIGHTS</h2>
         <p>
           Residents of the State of Nevada have the right to opt out of the sale
           of certain pieces of their information to third parties who will sell
           or license their information to others. If you are a Nevada resident
           and would like to make such a request, please email
-          <a href="mailto:raeleah@keemove.com">raeleah@keemove.com</a>
+          <a href="mailto:office@keemove.com">office@keemove.com</a>
         </p>
 
         <h2>NEWSLETTER PRIVACY</h2>
@@ -569,11 +567,11 @@ const Privacy = () => {
           includes, but is not limited to, Your name and email. You will have an
           opportunity to unsubscribe from any future communications via email,
           but We reserve the right to maintain a database of past email
-          subscribers. We reserve the right to use this information as reasonably
-          necessary in Our business and as provided by law. Your information will
-          be shared with reasonably necessary parties for the ordinary course of
-          conducting Our business, such as through Facebook ads or Google Pay Per
-          Click marketing campaigns.
+          subscribers. We reserve the right to use this information as
+          reasonably necessary in Our business and as provided by law. Your
+          information will be shared with reasonably necessary parties for the
+          ordinary course of conducting Our business, such as through Facebook
+          ads or Google Pay Per Click marketing campaigns.
         </p>
 
         <h2>DATA BREACH PROCEDURES</h2>
@@ -605,11 +603,10 @@ const Privacy = () => {
 
         <h2>PRIVACY POLICY CHANGES</h2>
         <p>
-          Although most changes are likely to be minor, We may change our Privacy
-          Policy from time to time, and in Our sole discretion. We will notify
-          clients by email when making changes.
+          Although most changes are likely to be minor, We may change our
+          Privacy Policy from time to time, and in Our sole discretion. We will
+          notify clients by email when making changes.
         </p>
-
       </div>
     </div>
   );

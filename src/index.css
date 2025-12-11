@@ -287,8 +287,13 @@ h3 {
   color: rgba(0, 0, 0, 0.75);
 }
 
+.inner-div h2 {
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+}
+
 h2 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .privacy h2 {
@@ -391,6 +396,10 @@ p {
   margin: auto;
 }
 
+.subtitle {
+  font-weight: 700;
+}
+
 /* consulation component*/
 .text-link {
   font-style: italic;
@@ -405,6 +414,7 @@ p {
   list-style: circle;
   font-size: 2.5rem;
   line-height: 3.5rem;
+  margin-bottom: 1rem;
 }
 .con-div ul {
   padding-left: 20px;

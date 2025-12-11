@@ -1,51 +1,52 @@
-import React from 'react'
-import { FaPhoneAlt, FaFax } from 'react-icons/fa'
-import { AiOutlineMail } from 'react-icons/ai'
-import ContactForm from './ContactForm'
+import React from "react";
+import { FaPhoneAlt, FaFax } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
+import ContactForm from "./ContactForm";
 
 const ContactPage = () => {
-
-
   return (
-    <div className='div'>
-      <div className='contactPage' id='contact'>
-
-        <div className='contact'>
-          <div className='contactDiv'>
+    <div className="div">
+      <div className="contactPage" id="contact">
+        <div className="contact">
+          <div className="contactDiv">
             <h3>Contact Us</h3>
             <ul>
               <li>
-                <a href="mailto:raeleah@keemove.com" target='_blank' rel="noreferrer">
-                  <div className='contact-icons'>
-                    <AiOutlineMail />raeleah@keemove.com
+                <a
+                  href="mailto:office@keemove.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="contact-icons">
+                    <AiOutlineMail />
+                    office@keemove.com
                   </div>
                 </a>
               </li>
               <li>
-                <a href="tel:406-209-9847" target='_blank' rel="noreferrer">
-                  <div className='contact-icons'>
-                    <FaPhoneAlt />Phone: (406) 209-9847
+                <a href="tel:406-209-9847" target="_blank" rel="noreferrer">
+                  <div className="contact-icons">
+                    <FaPhoneAlt />
+                    Phone: (406) 209-9847
                   </div>
                 </a>
               </li>
               <li>
-                <a href="tel:406-209-9847" target='_blank' rel="noreferrer">
-                  <div className='contact-icons'>
-                    <FaFax />Fax: (406) 519-0626
+                <a href="tel:406-209-9847" target="_blank" rel="noreferrer">
+                  <div className="contact-icons">
+                    <FaFax />
+                    Fax: (406) 519-0626
                   </div>
                 </a>
               </li>
-
             </ul>
           </div>
 
           <ContactForm />
-
         </div>
       </div>
     </div>
+  );
+};
 
-  )
-}
-
-export default ContactPage
+export default ContactPage;

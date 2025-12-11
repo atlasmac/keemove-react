@@ -31,16 +31,6 @@ function App() {
             </>
           }
         />
-        {/* <Route
-          path="/GetStarted"
-          element={
-            <>
-              <Start />
-              <Regulation />
-              <Structure />
-            </>
-          }
-        /> */}
         <Route
           path="/Help"
           element={

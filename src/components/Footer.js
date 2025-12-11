@@ -31,11 +31,7 @@ const Footer = () => {
                 About
               </NavHashLink>
             </li>
-            <li>
-              <NavHashLink to="/GetStarted/#start" smooth>
-                Get Started
-              </NavHashLink>
-            </li>
+
             <li>
               <NavHashLink to="/Resources/#resources" smooth>
                 Resources
@@ -58,11 +54,11 @@ const Footer = () => {
           <ul>
             <li>Missoula, Montana</li>
             <li>
-              <a href="mailto:raeleah@keemove.com">
+              <a href="mailto:office@keemove.com">
                 <span>
                   {" "}
                   <AiOutlineMail />
-                  raeleah@keemove.com
+                  office@keemove.com
                 </span>{" "}
               </a>
             </li>
