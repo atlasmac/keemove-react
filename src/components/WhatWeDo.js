@@ -26,6 +26,21 @@ const WhatWeDo = () => {
               office located at a therapeutic riding center, providing
               flexibility and convenience.
             </li>
+            <ul>
+              <li>
+                <span className="subtitle">Home and daycare visits:</span>{" "}
+                available for kids and families in the Missoula area
+              </li>
+              <li>
+                {" "}
+                <span className="subtitle">Virtual sessions:</span> Must live in
+                Montana if using insurance
+              </li>
+              <li>
+                <span className="subtitle">Visits at the horse barn:</span>{" "}
+                typically appropriate for kids ages 5+
+              </li>
+            </ul>
             <li>
               <span className="subtitle">Consultations:</span> Raeleah offers
               in-home and virtual consultations to educate families on general
