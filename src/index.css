@@ -865,7 +865,9 @@ footer a:hover {
     font-size: 2rem;
   }
   .home-div h1 {
-    font-size: 3.5rem;
+    font-size: 5rem;
+    /* add font shadow make show up better on image*/
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -873,6 +875,9 @@ footer a:hover {
   .form-control,
   .input-textarea {
     font-size: 1.7rem;
+  }
+  .home-div h1 {
+    font-size: 3rem;
   }
 
   .main-nav ul {
