@@ -13,6 +13,7 @@ import posts from "./posts.json";
 import Privacy from "./components/Privacy";
 import PatientTools from "./components/PatientTools";
 import ScrollToTop from "./components/ScrollToTop";
+import NewsletterPopup from "./components/NewsLetterPopup";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
               <About />
               <Testimonial colors={posts} />
               <Consultation />
+              <NewsletterPopup />
             </>
           }
         />
