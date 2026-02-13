@@ -111,13 +111,17 @@ const Privacy = () => {
         </p>
 
         <p>
-          <strong>Mobile Device Data:</strong>
+          <strong>Mobile Device Data: </strong>
           If You use Our website via a mobile device or app, We may collect
           information about Your mobile device, including device ID, model and
-          manufacturer, and location information.
+          manufacturer, and location information. Mobile information will not be
+          shared with third parties/affiliates for marketing/promotional
+          purposes. All the above categories exclude text messaging originator
+          opt-in data and consent; this information will not be shared with any
+          third parties.
         </p>
         <p>
-          <strong>Other data:</strong>
+          <strong>Other data: </strong>
           On occasion, You may give us additional data in order to enter into a
           contest or giveaway or to participate in a survey. You will be
           prompted for this information and it will be clear that You are
