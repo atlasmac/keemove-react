@@ -1,17 +1,13 @@
-import React from 'react'
+import React from "react";
 // import ContactMessage from './ContactMessage';
 
 const ContactForm = () => {
-
   return (
     <div>
       <form name="contact" method="post">
-        <input
-          type='hidden'
-          name='form-name'
-          value='contact' />
+        <input type="hidden" name="form-name" value="contact" />
         <div className="form-group">
-          <fieldset >
+          <fieldset>
             <div>
               <input
                 id="firstName"
@@ -33,8 +29,19 @@ const ContactForm = () => {
                 required
               />
             </div>
-
           </fieldset>
+        </div>
+
+        {/* ✅ Phone Number Field Added */}
+        <div className="form-group">
+          <input
+            id="tel"
+            name="tel"
+            type="tel"
+            placeholder="Phone Number"
+            className="form-control"
+            pattern="[0-9+\-\s()]*"
+          />
         </div>
         <div className="form-group">
           <input
@@ -45,30 +52,24 @@ const ContactForm = () => {
             className="form-control"
             required
           />
-
         </div>
         <div className="form-group">
           <textarea
             id="message"
             name="message"
             placeholder="Message"
-            className="input-textarea form-control"  ></textarea>
+            className="input-textarea form-control"
+          ></textarea>
         </div>
 
-
-
-        <div className='buttonDiv'>
-          <button
-            type="submit"
-            className="submit-button"
-          >
+        <div className="buttonDiv">
+          <button type="submit" className="submit-button">
             Send
           </button>
         </div>
-
       </form>
     </div>
-  )
-}
+  );
+};
 
-export default ContactForm
+export default ContactForm;
