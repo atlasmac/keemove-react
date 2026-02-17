@@ -14,12 +14,12 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -232,7 +232,9 @@ li {
 .home-div h1 {
   font-size: 5rem;
   color: #fff;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 6px 12px rgba(0, 0, 0, 0.6);
+  text-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.8),
+    0 6px 12px rgba(0, 0, 0, 0.6);
   background: rgba(0, 0, 0, 0.45);
   padding: 0.3em 0.6em;
   border-radius: 8px;
@@ -573,7 +575,9 @@ fieldset {
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
 }
 
 .input-textarea {

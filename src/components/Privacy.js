@@ -24,7 +24,7 @@ const Privacy = () => {
 
         <p>
           For any privacy-related questions, you can reach us at{" "}
-          <a href="mailto:office@keemove.com">office@keemove.com</a>.
+          <a href="mailto:office@keemove.com"> office@keemove.com</a>.
         </p>
 
         <h2>GENERAL</h2>
@@ -128,6 +128,98 @@ const Privacy = () => {
           offering this kind of information in exchange for an entry into such a
           contest or giveaway.
         </p>
+
+        {/* chat */}
+
+        <h2>SMS TERMS &amp; CONDITIONS</h2>
+
+        <p>
+          <strong>SMS Consent Communication: </strong>
+          The information (Phone Numbers) obtained as part of the SMS consent
+          process will not be shared with third parties for marketing purposes.
+        </p>
+
+        <p>
+          <strong>Types of SMS Communications: </strong>
+          If you have consented to receive text messages from Kee Move LLC, you
+          may receive messages related to the following: appointment reminders
+          and cancellations, weather, billing and plan of care.
+        </p>
+
+        <p>
+          <strong>Example Message: </strong>
+          &quot;Hello, this is a friendly reminder of your upcoming appointment
+          with Raeleah Schaeffer at [Location] on [Date] at [Time]. You can
+          reply STOP to opt out of SMS messaging from Kee Move LLC at any
+          time.&quot;
+        </p>
+
+        <p>
+          <strong>Message Frequency: </strong>
+          Message frequency may vary depending on the type of communication. For
+          example, you may receive up to 3 SMS messages per week related to your
+          [appointments/billing, etc.].
+        </p>
+
+        <p>
+          <strong>Example Frequency Disclosure: </strong>
+          &quot;Message frequency may vary. You may receive up to 3 SMS messages
+          per week regarding your appointments or account status.&quot;
+        </p>
+
+        <p>
+          <strong>Potential Fees for SMS Messaging: </strong>
+          Please note that standard message and data rates may apply, depending
+          on your carrier’s pricing plan. These fees may vary if the message is
+          sent domestically or internationally.
+        </p>
+
+        <p>
+          <strong>Opt-In Method: </strong>
+          You may opt in to receive SMS messages from Kee Move LLC in the
+          following ways:
+        </p>
+
+        <ul>
+          <li>By filling out a paper form</li>
+          <li>By filling out the contact form on the website</li>
+        </ul>
+
+        <p>
+          <strong>Opt-Out Method: </strong>
+          You can opt out of receiving SMS messages at any time. To do so,
+          simply reply &quot;STOP&quot; to any SMS message you receive.
+          Alternatively, you can contact us directly to request removal from our
+          messaging list.
+        </p>
+
+        <p>
+          <strong>Help: </strong>
+          If you are experiencing any issues, you can reply with the keyword
+          &quot;HELP&quot;. Or, you can get help directly from us at{" "}
+          <a href="https://www.keemove.com/#book"></a>
+          https://www.keemove.com/#book
+        </p>
+
+        <p>
+          <strong>Additional Options: </strong>
+          If you do not wish to receive SMS messages, you can choose not to
+          check the SMS consent box on our forms.
+        </p>
+
+        <p>
+          <strong>Standard Messaging Disclosures: </strong>
+          Message and data rates may apply. You can opt out at any time by
+          texting &quot;STOP.&quot; For assistance, text &quot;HELP&quot; or
+          visit our{" "}
+          <a href="https://www.keemove.com/privacy/#privacy">
+            Privacy Policy
+          </a>{" "}
+          and <a href="https://www.keemove.com/privacy">Terms and Conditions</a>{" "}
+          pages. Message frequency may vary.
+        </p>
+
+        {/* chat stop */}
 
         <h2>HOW WE USE YOUR INFORMATION</h2>
         <p>
@@ -328,10 +420,17 @@ const Privacy = () => {
           individual browser options. However, this may affect Your ability to
           use or make purchases from Our website. More detailed information
           about cookie management with specific web browsers can be found at the
-          browsers’ respective websites. What Are Cookies?
-          (http://www.whatarecookies.com) By continuing to use Our website and
-          not disabling cookies on Your browser, You are consenting to Our use
-          of cookies in accordance with the terms of this policy.
+          browsers’ respective website,{" "}
+          <a
+            target="_blank"
+            href="http://www.whatarecookies.com"
+            rel="noreferrer"
+          >
+            What Are Cookies?
+          </a>{" "}
+          By continuing to use Our website and not disabling cookies on Your
+          browser, You are consenting to Our use of cookies in accordance with
+          the terms of this policy.
         </p>
         <h2>WEBSITE ANALYTICS</h2>
         <p>
@@ -502,16 +601,14 @@ const Privacy = () => {
           You may opt out of receiving future email correspondence from us by
           checking the appropriate box when You register for an account or make
           a purchase. You may change Your communication settings by contacting
-          us at
-          <a href="mailto:office@keemove.com">office@keemove.com</a>
+          us at <a href="mailto:office@keemove.com"> office@keemove.com</a>
         </p>
 
         <p>
           <strong>Marketing Communications:</strong>
           You may opt out of receiving any third party marketing communications
           or having Your personal information used for marketing purposes. You
-          may do this by contacting us at
-          <a href="mailto:office@keemove.com">office@keemove.com</a>
+          may do this by contacting us
         </p>
 
         <p>
@@ -560,8 +657,8 @@ const Privacy = () => {
           Residents of the State of Nevada have the right to opt out of the sale
           of certain pieces of their information to third parties who will sell
           or license their information to others. If you are a Nevada resident
-          and would like to make such a request, please email
-          <a href="mailto:office@keemove.com">office@keemove.com</a>
+          and would like to make such a request, please email{" "}
+          <a href="mailto:office@keemove.com"> office@keemove.com</a>
         </p>
 
         <h2>NEWSLETTER PRIVACY</h2>
