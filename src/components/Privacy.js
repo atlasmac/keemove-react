@@ -197,8 +197,9 @@ const Privacy = () => {
           <strong>Help: </strong>
           If you are experiencing any issues, you can reply with the keyword
           &quot;HELP&quot;. Or, you can get help directly from us at{" "}
-          <a href="https://www.keemove.com/#book"></a>
-          https://www.keemove.com/#book
+          <a href="https://www.keemove.com/#book">
+            https://www.keemove.com/#book
+          </a>
         </p>
 
         <p>
