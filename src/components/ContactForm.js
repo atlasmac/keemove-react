@@ -31,18 +31,6 @@ const ContactForm = () => {
             </div>
           </fieldset>
         </div>
-
-        {/* ✅ Phone Number Field Added */}
-        <div className="form-group">
-          <input
-            id="tel"
-            name="tel"
-            type="tel"
-            placeholder="Phone Number"
-            className="form-control"
-            pattern="[0-9+\-\s()]*"
-          />
-        </div>
         <div className="form-group">
           <input
             id="email"
