@@ -182,7 +182,6 @@ const Privacy = () => {
 
         <ul>
           <li>By filling out a paper form</li>
-          <li>By filling out the contact form on the website</li>
         </ul>
 
         <p>
