@@ -131,94 +131,6 @@ const Privacy = () => {
 
         {/* chat */}
 
-        <h2>SMS TERMS &amp; CONDITIONS</h2>
-
-        <p>
-          <strong>SMS Consent Communication: </strong>
-          The information (Phone Numbers) obtained as part of the SMS consent
-          process will not be shared with third parties for marketing purposes.
-        </p>
-
-        <p>
-          <strong>Types of SMS Communications: </strong>
-          If you have consented to receive text messages from Kee Move LLC, you
-          may receive messages related to the following: appointment reminders
-          and cancellations, weather, billing and plan of care.
-        </p>
-
-        <p>
-          <strong>Example Message: </strong>
-          &quot;Hello, this is a friendly reminder of your upcoming appointment
-          with Raeleah Schaeffer at [Location] on [Date] at [Time]. You can
-          reply STOP to opt out of SMS messaging from Kee Move LLC at any
-          time.&quot;
-        </p>
-
-        <p>
-          <strong>Message Frequency: </strong>
-          Message frequency may vary depending on the type of communication. For
-          example, you may receive up to 3 SMS messages per week related to your
-          [appointments/billing, etc.].
-        </p>
-
-        <p>
-          <strong>Example Frequency Disclosure: </strong>
-          &quot;Message frequency may vary. You may receive up to 3 SMS messages
-          per week regarding your appointments or account status.&quot;
-        </p>
-
-        <p>
-          <strong>Potential Fees for SMS Messaging: </strong>
-          Please note that standard message and data rates may apply, depending
-          on your carrier’s pricing plan. These fees may vary if the message is
-          sent domestically or internationally.
-        </p>
-
-        <p>
-          <strong>Opt-In Method: </strong>
-          You may opt in to receive SMS messages from Kee Move LLC in the
-          following ways:
-        </p>
-
-        <ul>
-          <li>By filling out a paper form</li>
-        </ul>
-
-        <p>
-          <strong>Opt-Out Method: </strong>
-          You can opt out of receiving SMS messages at any time. To do so,
-          simply reply &quot;STOP&quot; to any SMS message you receive.
-          Alternatively, you can contact us directly to request removal from our
-          messaging list.
-        </p>
-
-        <p>
-          <strong>Help: </strong>
-          If you are experiencing any issues, you can reply with the keyword
-          &quot;HELP&quot;. Or, you can get help directly from us at{" "}
-          <a href="https://www.keemove.com/#book">
-            https://www.keemove.com/#book
-          </a>
-        </p>
-
-        <p>
-          <strong>Additional Options: </strong>
-          If you do not wish to receive SMS messages, you can choose not to
-          check the SMS consent box on our forms.
-        </p>
-
-        <p>
-          <strong>Standard Messaging Disclosures: </strong>
-          Message and data rates may apply. You can opt out at any time by
-          texting &quot;STOP.&quot; For assistance, text &quot;HELP&quot; or
-          visit our{" "}
-          <a href="https://www.keemove.com/privacy/#privacy">
-            Privacy Policy
-          </a>{" "}
-          and <a href="https://www.keemove.com/privacy">Terms and Conditions</a>{" "}
-          pages. Message frequency may vary.
-        </p>
-
         {/* chat stop */}
 
         <h2>HOW WE USE YOUR INFORMATION</h2>
@@ -707,6 +619,79 @@ const Privacy = () => {
           Although most changes are likely to be minor, We may change our
           Privacy Policy from time to time, and in Our sole discretion. We will
           notify clients by email when making changes.
+        </p>
+
+        <h2>SMS TERMS &amp; CONDITIONS</h2>
+
+        <p>
+          <strong>SMS Consent Communication: </strong>
+          We will not share your phone number with any third parties for
+          marketing purposes.
+        </p>
+
+        <p>
+          <strong>Types of SMS Communications: </strong>
+          If you opt in to receive messages from Kee Move LLC, you may receive
+          text messages for conversational purposes, including appointment
+          confirmations, appointment cancellations, and weather-related updates.
+          Standard message rates may apply.
+        </p>
+
+        <p>
+          <strong>Example Message: </strong>
+          &quot;Hello, this is a friendly reminder of your upcoming appointment
+          with Raeleah Schaeffer at [Location] on [Date] at [Time]. You can
+          reply STOP to opt out of SMS messaging from Kee Move LLC at any
+          time.&quot;
+        </p>
+
+        <p>
+          <strong>Message Frequency: </strong>
+          You may receive approximately 3 SMS messages per week.
+        </p>
+
+        <p>
+          <strong>Carrier Charges: </strong>
+          Message and data rates may apply based on your mobile carrier and
+          location.
+        </p>
+
+        <p>
+          <strong>Opt-In Methods: </strong>
+          You can opt in to receive SMS messages from Kee Move LLC verbally. We
+          obtain consent by asking: &quot;Do you agree to receive conversational
+          text messages from Kee Move LLC? Reply STOP to opt out; reply HELP for
+          support; message and data rates may apply; messaging frequency may
+          vary. Visit{" "}
+          <a href="https://www.keemove.com/privacy/#privacy">
+            https://www.keemove.com/privacy/#privacy
+          </a>{" "}
+          to view our Privacy Policy and Terms of Service.&quot;
+        </p>
+
+        <p>
+          <strong>Opt-Out Instructions: </strong>
+          You may opt out at any time by replying &quot;STOP&quot; to any
+          message. To resume receiving text messages, reply &quot;START.&quot;
+        </p>
+
+        <p>
+          <strong>Help: </strong>
+          If you need assistance, reply &quot;HELP&quot; or contact us at{" "}
+          <a href="https://www.keemove.com/#home">
+            https://www.keemove.com/#home
+          </a>
+        </p>
+
+        <p>
+          <strong>Disclosures: </strong>
+          Message frequency may vary. Message and data rates may apply. Reply
+          &quot;STOP&quot; to cancel. Reply &quot;HELP&quot; for assistance.
+          Visit our{" "}
+          <a href="https://www.keemove.com/privacy/#privacy">
+            Privacy Policy
+          </a>{" "}
+          and Terms and Conditions pages for more information.
         </p>
       </div>
     </div>
